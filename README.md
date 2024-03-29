@@ -10,7 +10,8 @@ Raw Hash Cracker Tool and Script for Creating Raw Hashes.
 
 
 > [!CAUTION]
-> This tool was created for educational purposes only. I do not take any responsibility for the misuse of this tool.
+> Disclaimer: This tool was created for educational purposes only. I do not take any responsibility for the misuse of this tool.
+
 
 ![aCreator](/assets/anayansi_creator.gif)
 
