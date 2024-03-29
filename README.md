@@ -8,12 +8,19 @@
 ## Raw Hash Cracker & Hash Creator
 Raw Hash Cracker Tool and Script for Creating Raw Hashes.
 
+
+> [!CAUTION]
+> This tool was created for educational purposes only. I do not take any responsibility for the misuse of this tool.
+
 ![aCreator](/assets/anayansi_creator.gif)
 
 ![aCracker](/assets/anayansi_cracker.gif)
 
 ## Version
 **Anayansi V1.0**
+
+### Features
+Create and Crack through brute force using a dictionary or wordlist.
 
 ## Supported Hash Formats
 * **MD5**
@@ -65,6 +72,18 @@ python3 anayansi.py
 A "Wordlist" is a list of words or characters listed in a text file, an example of which is "rockyou.txt", and others.
 
 I will not provide the Wordlist mentioned, but searching for it is not complicated.
+
+---
+### TODO List
+
+- [ ] SMD5
+- [x] MD5
+- [x] SHA512
+- [ ] CRYPT
+- [ ] Blake2
+- [ ] SHA3
+- [ ] GOST
+- [ ] UI Menu
 
 ### License
 💜 [- > License](/LICENSE)
