@@ -93,5 +93,7 @@ Contributions, issues and feature requests are welcome! Feel free to check issue
 Give a ⭐️ if this project helped you! 
 
 ### 📝 License
+
 Copyright © 2024 [Rawier](https://rawier.vercel.app). This project is [MIT](/LICENSE) licensed.
+
 ---
