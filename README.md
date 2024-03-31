@@ -30,7 +30,7 @@ Create and Crack through brute force using a dictionary or wordlist.
 * **SHA384**
 * **SHA512**
 
-## Requirements
+## 📦 Requirements
 **[Python3](https://www.python.org/downloads/)**
 
 **[Colorama](https://pypi.org/project/colorama/)**
@@ -39,7 +39,7 @@ Create and Crack through brute force using a dictionary or wordlist.
 
 *  **OS**
 
-## Installation
+## 💻 Installation
 Execute the commands according to your case (Win or Linux)
 
 `pyhon` for windows `python3` for Linux
@@ -86,10 +86,12 @@ I will not provide the Wordlist mentioned, but searching for it is not complicat
 - [ ] GOST
 - [ ] UI Menu
 
-### License
-💜 [- > License](/LICENSE)
+### 🤝 Contributing
+Contributions, issues and feature requests are welcome! Feel free to check issues page.
 
-### Author 
-💜 [- > Rawier](https://rawier.vercel.app)
+### ❤️ Show your support
+Give a ⭐️ if this project helped you! 
 
+### 📝 License
+Copyright © 2024 [Rawier](https://rawier.vercel.app). This project is [MIT](/LICENSE) licensed.
 ---
