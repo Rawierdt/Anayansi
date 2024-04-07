@@ -119,7 +119,7 @@ def sha1():
             print(Fore.RED + " Password Not Found !!!" + Style.RESET_ALL)
 
 def blake2():
-    """ SHA1 is for Decrypting Raw SHA1 Hash"""
+    """ BLAKE2 is for Decrypting Raw BLAKE2 Hash"""
     hash = input(
         Fore.GREEN + " [" + Fore.RED + 'x' + Fore.GREEN + "]" + Style.RESET_ALL + " Enter the Hash : " + Fore.GREEN)
     w_list = input(
@@ -145,7 +145,8 @@ while ex != 'y':
          2 : SHA1
          3 : SHA256
          4 : SHA384
-         5 : SHA512""")
+         5 : SHA512
+         6 : BLAKE2""")
         op = int(input(" Enter Options : "))
         print()
         if op == 1:
@@ -158,6 +159,8 @@ while ex != 'y':
             print(sha384())
         elif op == 5:
             print(sha512())
+        elif op == 6:
+            print(blake2())
         else:
             print("\t Wrong Input...\t Exiting Program...")
     except Exception as error:
