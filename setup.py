@@ -6,10 +6,16 @@ try:
     if platform.system() == "Windows":
         os.system("python -m pip install colorama")
         os.system("python -m pip install pyfiglet")
+        os.system("python -m pip install --upgrade --force-reinstall cryptography")
+        os.system("python -m pip install pycryptodome")
+        os.system("python -m pip install gostcrypto")
         os.system("cls")
     else:  # Linux, macOS, etc.
         os.system("python3 -m pip install colorama")
         os.system("python3 -m pip install pyfiglet")
+        os.system("python3 -m pip pip install --upgrade --force-reinstall cryptography")
+        os.system("python3 -m pip install pycryptodome")
+        os.system("python3 -m pip install gostcrypto")
         os.system("clear")
 
     print("Installed Successfully !!!")

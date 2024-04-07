@@ -147,7 +147,7 @@ while ex != 'y':
         pass
     ex = input(" Do You Want to Exit ? [y,n] : ")
     if ex == 'y':
-        print("  Thank You For Using This Program... :)")
+        print("  Ending... :)")
     print()
     continue
 

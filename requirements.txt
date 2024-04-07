@@ -1,2 +1,4 @@
 colorama==0.4.3
 pyfiglet==0.8.post0
+pycryptodome
+cryptography
