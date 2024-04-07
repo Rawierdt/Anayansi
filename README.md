@@ -29,6 +29,7 @@ Create and Crack through brute force using a dictionary or wordlist.
 * **SHA256**
 * **SHA384**
 * **SHA512**
+* **BLAKE2**
 
 ## 📦 Requirements
 **[Python3](https://www.python.org/downloads/)**
@@ -80,7 +81,6 @@ I will not provide the Wordlist mentioned, but searching for it is not complicat
 - [ ] SMD5
 - [x] MD5
 - [x] SHA512
-- [ ] CRYPT
 - [x] Blake2
 - [ ] GOST
 - [ ] UI Menu
