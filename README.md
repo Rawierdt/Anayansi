@@ -81,8 +81,7 @@ I will not provide the Wordlist mentioned, but searching for it is not complicat
 - [x] MD5
 - [x] SHA512
 - [ ] CRYPT
-- [ ] Blake2
-- [ ] SHA3
+- [x] Blake2
 - [ ] GOST
 - [ ] UI Menu
 
