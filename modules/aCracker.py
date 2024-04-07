@@ -118,6 +118,24 @@ def sha1():
         else:
             print(Fore.RED + " Password Not Found !!!" + Style.RESET_ALL)
 
+def blake2():
+    """ SHA1 is for Decrypting Raw SHA1 Hash"""
+    hash = input(
+        Fore.GREEN + " [" + Fore.RED + 'x' + Fore.GREEN + "]" + Style.RESET_ALL + " Enter the Hash : " + Fore.GREEN)
+    w_list = input(
+        Fore.GREEN + " [" + Fore.RED + 'x' + Fore.GREEN + "]" + Style.RESET_ALL + " Input Full Path of Wordlist : " + Fore.GREEN)
+    print(Style.RESET_ALL)
+    pass_file = open(w_list, "r")
+
+    for i in pass_file:
+        file_enc = i.encode('utf-8')
+        md_hash = hashlib.blake2b(file_enc.strip()).hexdigest()
+
+        if md_hash == hash:
+            print(Fore.GREEN + " Password Found :", i + Style.RESET_ALL)
+            break
+        else:
+            print(Fore.RED + " Password Not Found !!!" + Style.RESET_ALL)
 
 ex = 'n'
 while ex != 'y':
